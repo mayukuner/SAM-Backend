@@ -2,9 +2,10 @@
 #define GLMOBJECTIVE_HPP
 
 #include "objective.h"
-#include <Rcpp.h>
-#include <RcppEigen.h>
 #include <vector>
+#include "../../eigen3/Eigen/Dense"
+// #include <Rcpp.h>
+// #include <RcppEigen.h>
 using Eigen::VectorXd;
 using Eigen::MatrixXd;
 //[[Rcpp::depends(RcppEigen)]]

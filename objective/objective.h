@@ -2,13 +2,15 @@
 #define SAM_OBJECTIVE_H
 
 #include <cmath>
-#include <Rcpp.h>
-#include <RcppEigen.h>
 #include <vector>
-#include "../utils.h"
+#include "../../utils.h"
 
 #include <ctime>
 #include <iostream>
+#include "../../eigen3/Eigen/Dense"
+// #include <Rcpp.h>
+// #include <RcppEigen.h>
+
 
 using Eigen::VectorXd;
 using Eigen::MatrixXd;

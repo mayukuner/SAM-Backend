@@ -3,7 +3,7 @@
 #include "actnewton.h"
 #include "../objective/objective.h"
 #include "solver_params.h"
-#include "../utils.h"
+#include "../../utils.h"
 #include <iostream>
 #include <algorithm>
 #include <stdio.h>

@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "R.h"
 #include "math.h"
-#include "R_ext/BLAS.h"
-#include "R_ext/Lapack.h"
+// #include "R.h"
+// #include "R_ext/BLAS.h"
+// #include "R_ext/Lapack.h"
 
 void get_residual(double *r,double *Z, double* x, int *xa_idx, int *nn, int *dd, int *pp, int *mm)
 {

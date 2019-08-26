@@ -1,11 +1,13 @@
 #include "GLMObjective.h"
-#include "../utils.h"
+#include "../../utils.h"
 #include <stdio.h>
 #include <iostream>
-#include <Rcpp.h>
-#include <RcppEigen.h>
 #include <complex>
 #include <algorithm>
+#include "../../eigen3/Eigen/Dense"
+// #include <Rcpp.h>
+// #include <RcppEigen.h>
+
 
 //[[Rcpp::depends(RcppEigen)]]
 //[[Rcpp::plugins(openmp)]

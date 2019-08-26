@@ -1,17 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "R.h"
 #include "math.h"
-#include "R_ext/BLAS.h"
-#include "R_ext/Lapack.h"
 #include <vector>
-#include <Rcpp.h>
-#include <RcppEigen.h>
-#include "../utils.h"
+#include "../../utils.h"
 #include "../solver/actnewton.h"
 #include "../objective/LinearObjective.h"
 #include <iostream>
+#include "../../eigen3/Eigen/Dense"
+// #include "R.h"
+// #include "R_ext/BLAS.h"
+// #include "R_ext/Lapack.h"
+// #include <Rcpp.h>
+// #include <RcppEigen.h>
 
 using Eigen::MatrixXd;
 using Eigen::VectorXd;
