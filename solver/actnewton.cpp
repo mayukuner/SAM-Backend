@@ -1,5 +1,3 @@
-#include <Rcpp.h>
-#include <RcppEigen.h>
 #include "actnewton.h"
 #include "../objective/objective.h"
 #include "solver_params.h"
@@ -7,6 +5,9 @@
 #include <iostream>
 #include <algorithm>
 #include <stdio.h>
+#include "../../eigen3/Eigen/Dense"
+// #include <Rcpp.h>
+// #include <RcppEigen.h>
 //[[Rcpp::depends(RcppEigen)]]
 //[[Rcpp::plugins(openmp)]
 
